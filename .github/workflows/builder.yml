@@ -17,7 +17,7 @@ on:
 jobs:
   docker-registry-orchestrator:
     name: Docker Registry Orchestrator
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Checkout current git repo # 
         uses: actions/checkout@v3
